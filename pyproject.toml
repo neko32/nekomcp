@@ -1,0 +1,11 @@
+[project]
+name = "nekomcp"
+version = "0.1.0"
+description = "Neko MCP Server"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "httpx>=0.28.1",
+    "loguru>=0.7.3",
+    "mcp[cli]>=1.7.1",
+]
