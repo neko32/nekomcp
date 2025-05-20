@@ -7,8 +7,10 @@ requires-python = ">=3.13"
 dependencies = [
     "httpx>=0.28.1",
     "langchain>=0.3.25",
+    "langchain-mcp-adapters>=0.1.0",
     "langchain-ollama>=0.3.3",
+    "langchain-openai>=0.3.17",
     "loguru>=0.7.3",
-    "mcp[cli]>=1.7.1",
+    "mcp[cli]==1.9.0",
     "streamlit>=1.45.1",
 ]
